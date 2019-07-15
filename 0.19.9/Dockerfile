@@ -10,7 +10,7 @@ RUN useradd -r bitcoin \
 
 ENV BITCOIN_ABC_VERSION=0.19.9
 ENV BITCOIN_ABC_DATA=/home/bitcoin/.bitcoin
-ENV PATH=/opt/bitcoin-${BITCOIN_ABC_VERSION}/bin:$PATH
+ENV PATH=/opt/bitcoin-abc-${BITCOIN_ABC_VERSION}/bin:$PATH
 
 RUN curl -SLO https://download.bitcoinabc.org/${BITCOIN_ABC_VERSION}/jasonbcox-sha256sums.${BITCOIN_ABC_VERSION}.asc \
     && curl -SLO https://download.bitcoinabc.org/${BITCOIN_ABC_VERSION}/linux/bitcoin-abc-${BITCOIN_ABC_VERSION}-x86_64-linux-gnu.tar.gz \
