@@ -1,3 +1,1 @@
-# Internal Docker Container for Bitcoin ABC (or Cash)
-
-
+# Internal Docker Container for Bitcoin Cash (using Bitcoin ABC client)
