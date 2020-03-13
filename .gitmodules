@@ -1,0 +1,4 @@
+[submodule "bitcoin-abc"]
+	path = bitcoin-abc
+	url = https://github.com/Bitcoin-ABC/bitcoin-abc.git
+	branch = master
